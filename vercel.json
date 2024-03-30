@@ -3,7 +3,7 @@
     "framework": null,
     "outputDirectory": "public",
     "functions": {
-        "api/index.php": {
+        "api/**/*.php": {
             "runtime": "vercel-php@0.7.0"
         }
     },
@@ -18,7 +18,7 @@
         }
     ],
     "env": {
-        "APP_NAME": "Inertia Bootcamp",
+        "APP_NAME": "InertiaBootcamp",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://laravel-bootcamp-inertia.vercel.app",
