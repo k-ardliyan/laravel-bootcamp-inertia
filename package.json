@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "format": "prettier --write ."
     },
     "devDependencies": {
         "@headlessui/react": "^1.7.18",
@@ -14,6 +15,8 @@
         "axios": "^1.6.8",
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.4.38",
+        "prettier": "^3.2.5",
+        "prettier-plugin-tailwindcss": "^0.5.13",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "tailwindcss": "^3.4.3",
