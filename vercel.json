@@ -19,6 +19,7 @@
     ],
     "env": {
         "APP_NAME": "InertiaBootcamp",
+        "VITE_APP_NAME": "InertiaBootcamp",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://laravel-bootcamp-inertia.vercel.app",
@@ -32,7 +33,7 @@
 
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie",
+        "SESSION_DRIVER": "database",
 
         "SSR_TEMP_PATH": "/tmp/ssr",
         "NODE_PATH": "node"
