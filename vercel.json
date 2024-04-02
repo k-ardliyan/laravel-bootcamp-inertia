@@ -30,12 +30,12 @@
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
+        "SSR_TEMP_PATH": "/tmp/ssr",
+        "NODE_PATH": "node",
 
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "database",
-
-        "SSR_TEMP_PATH": "/tmp/ssr",
-        "NODE_PATH": "node"
+        "QUEUE_CONNECTION": "sync"
     }
 }
