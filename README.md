@@ -46,6 +46,6 @@ Start the server
 
 **Client:** Inertia, React, TailwindCSS
 
-**Server:** Laravel 11, PHP (8.3.3), Vercel
+**Server:** Laravel 11, PHP (8.3.3), Vercel PHP 0.7.0, Node.js 18.x
 
 **Database:** MySQL 8.0
