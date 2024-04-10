@@ -13,12 +13,12 @@
             "dest": "/public/build/$1"
         },
         {
-            "src": "(.htaccess|favicon.ico|robots.txt)",
+            "src": "/(\\.htaccess|favicon\\.ico|robots\\.txt)",
             "headers": {
                 "Cache-Control": "s-maxage=31536000"
             },
             "continue": true,
-            "dest": "/public/$1"
+            "dest": "/$1"
         },
         {
             "src": "/(.*)",
